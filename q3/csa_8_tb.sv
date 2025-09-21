@@ -18,7 +18,7 @@ module csa_8_tb;
     for(int i=0; i<10; i++) begin
       a=$urandom_range(0, 255);
       b=$urandom_range(0, 255);
-      #10
+      #10;
       $display("%d\t%d\t%b\t%d", a, b, carry, sum);
     end
     $finish;

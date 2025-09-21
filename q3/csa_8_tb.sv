@@ -21,7 +21,7 @@ module csa_8_tb;
       #10
       $display("%d\t%d\t%b\t%d", a, b, carry, sum);
     end
-    $finish
+    $finish;
   end
   
 endmodule
